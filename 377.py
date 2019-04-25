@@ -58,11 +58,7 @@ There are now six different possible orientations of the boxes.
 Again, boxes cannot be rotated independently:
 they all have to have the same orientation.'''
 
-def fit3(X, Y, Z, x, y, z):
-    
-    
-print(fit3_1(10, 10, 10, 1, 1, 1))
-print(fit3_1(12, 34, 56, 7, 8, 9))
-print(fit3_1(123, 456, 789, 10, 11, 12))
-print(fit3_1(1234567, 89101112, 13141516, 171819, 202122, 232425))
-print(); print()
+#python is not as good at working with vectors as other languages
+#I would recomend using C or java to continue with the problem
+#R is very good at working with vectors and I am the most proficient at R
+
