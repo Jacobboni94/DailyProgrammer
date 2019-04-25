@@ -58,17 +58,11 @@ There are now six different possible orientations of the boxes.
 Again, boxes cannot be rotated independently:
 they all have to have the same orientation.'''
 
-def fit2_1(X, Y, Z, x, y, z):
-    boxesWidth = X//x
-    boxesLength = Y//y
-    boxesHeight = Z//z
-    return(boxesWidth * boxesHeight * boxesLength)
-    
 def fit3(X, Y, Z, x, y, z):
     
     
-print(fit3(10, 10, 10, 1, 1, 1))
-print(fit3(12, 34, 56, 7, 8, 9))
-print(fit3(123, 456, 789, 10, 11, 12))
-print(fit3(1234567, 89101112, 13141516, 171819, 202122, 232425))
+print(fit3_1(10, 10, 10, 1, 1, 1))
+print(fit3_1(12, 34, 56, 7, 8, 9))
+print(fit3_1(123, 456, 789, 10, 11, 12))
+print(fit3_1(1234567, 89101112, 13141516, 171819, 202122, 232425))
 print(); print()
