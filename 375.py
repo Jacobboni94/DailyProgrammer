@@ -1,3 +1,6 @@
+#r/dailyprogrammer #375
+#May 8, 2019
+
 '''Print a new number by adding one to each of its digit
 
 A number is input in computer then a new no should get printed by adding one to each of its digit. If you encounter a 9, insert a 10 (don't carry over, just shift things around).
